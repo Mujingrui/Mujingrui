@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<!--## Jingrui (Murphy) Mu
+## Jingrui (Murphy) Mu
 
 Statistics PhD candidate at McGill University, working on Bayesian and high-dimensional
 statistical modelling for heterogeneous, multi-site data. Expected April 2027.

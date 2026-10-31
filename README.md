@@ -16,8 +16,7 @@ Prof. Mayer Alvo, building Bayesian spatio-temporal models of COVID-19 transmiss
 
 - **[Heterogeneous Federated High-dimensional Regression: Covariate Shift]**
   - Hospitals, banks, and other organizations often want to build better predictive models together, but can’t pool their raw data, and their populations differ. Standard federated methods average each site’s model, which introduces bias when sites look different from one another. We developed methods that correct for this, producing accurate site-specific predictions and identifying which of many candidate variables actually matter, while individual-level data never leaves each site.
-  - How it works: A personalized federated approach that models site-level differences, with sparse regression for variable selection in high dimensions
-Engineering: Custom optimization solver written from scratch in C++, parallelized with OpenMP. 
+  - How it works: A personalized federated approach that models site-level differences, with sparse regression for variable selection in high dimensions. Customed optimization solver written from scratch in C++, parallelized with OpenMP. 
 
 - **[Personalized Sparse Federated Learning: Shared Signals, Site-Specific Models Learn across sites. Preserve local differences. Keep data local.]**
   - Hospitals, labs, and devices can learn more together than alone, but the predictors that matter and how strongly they matter often differ by site. One global model hides those differences. Fully separate models waste shared signal. This project builds sparse federated regression methods that learn what is shared, flag what is site-specific, and keep raw data where it is.
